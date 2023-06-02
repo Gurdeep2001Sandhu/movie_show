@@ -1,0 +1,52 @@
+/* body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(148, 173, 228) !important;
+} */
+.divBox{
+    width: 280px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: left; */
+    padding: 30px;
+    /* line-height: 2; */
+    /* margin:; */
+    border: 1px solid black;
+    margin-top:100px;
+    margin-left: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(179, 241, 143);
+
+}
+
+.divBox h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.divBox h1:hover{
+    color: red;
+}
+
+.divBox h3,p:hover{
+    color: orangered;
+}
+
+.text-muted:hover{
+    color: orangered;
+}
+
+.bookMain{
+    height: 100vh;
+    border: 1px solid red;
+    padding: 100px;
+    background-color: rgb(112, 238, 211);
+}
